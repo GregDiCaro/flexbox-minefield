@@ -1,5 +1,7 @@
 # flexbox-minefield
 
+https://gregdicaro.github.io/flexbox-minefield/.
+
 Moi Greg j ai creer un projet pour la pratique du flexbox
 
 c est une representation du jeu minefield
