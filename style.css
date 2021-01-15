@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Press Start 2P", cursive;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.main-container {
+  background-color: #cbcbcb;
+  display: flex;
+  border: 10px groove rgb(138, 133, 133);
+}
+.container {
+}
+
+.cell {
+  height: 50px;
+  width: 50px;
+  border: 2px dotted black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .cell:hover {
+  background-color: #fff;
+} */
+.cell1 {
+  color: blue;
+}
+.cell2 {
+  color: green;
+}
+.cell3 {
+  color: red;
+}
+.cell-bomb {
+  color: black;
+}
+
+.image {
+  border: outset 3px white;
+  background-color: #e6e6e6;
+  background-image: url(./top-bottom.png);
+}
+.image:hover {
+  border: initial;
+  background-color: initial;
+  background-image: none;
+}
+
+p {
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p:hover {
+  opacity: 1;
+}
+
+/* .full {
+  border: outset 3px white;
+  background-color: #e6e6e6;
+}
+.full:hover {
+  border: outset 3px rgb(189, 186, 186);
+  background-color: #e6e6e6;
+} */
